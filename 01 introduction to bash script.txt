@@ -1,0 +1,11 @@
+# introduction to bash script
+
+1. How many types of shell are avaialbes ?
+:- Bourne Shell, C shell, K shell, Z shell, bash shell, TC shell
+
+2. what is bash shell script
+:- It is a series of bash commands in plain text file which tells the shell to execute this text file, instead of typing the commands.
+
+3. write shebang line
+:- #!/bin/bash
+

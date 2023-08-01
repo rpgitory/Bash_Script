@@ -1,0 +1,7 @@
+# Globbing and Export statement
+
+1. what are the standard wildcard characters ?
+:- *,?
+
+2. what do export command do in bash?
+:- it will export a variable or a function to environment of all child processes.

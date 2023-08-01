@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for i in {A..Z}; do for j in {a..z}; do  touch "$i$j.sh"; done; done
+
+for i in {a..z}; do for j in {a..z}; do for k in {a..z}; do touch "$i$j$k.sh"; done; done; done

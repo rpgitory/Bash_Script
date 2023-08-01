@@ -1,0 +1,28 @@
+# Basic of Shell script
+
+1. what is bash variable ?
+:- It provides temporary storage for information
+
+2. what is a lifespan of bash variable ?
+:- untill program executes
+
+3. what are the two types of bash variables ?
+:- System variable, user defined variables
+
+4. which variable is defined by Capital letter ?
+:- System
+
+5. Give some of example of system varaible in bash.
+:- HISTORY, BASH_VERSION, HOME, PWD
+
+6. which command use for display all system variable ?
+:- set, printenv
+
+7. what symbole is used for retriving bash variables.
+:- '$'
+
+8. how to remove declared bash variable
+:- unset variable_name
+
+9. which keyword is used for taking input from user or keyboard?
+:- read 

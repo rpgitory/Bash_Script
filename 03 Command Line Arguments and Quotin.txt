@@ -1,0 +1,25 @@
+# Command Line Arguments and Quoting 
+
+1. how we can display a arguments if it is grater than 9 ?
+:- ${10}
+
+2. How to display total number of arguments which passed during execution.
+:- $#
+
+3. how to display all the arguments all at one times in bash ?
+:- $*
+
+4. what is different between $* and $@ while both are displaying all the passing arguments in bash.
+: $@ will print all the arguments in separated lines where $* will print all arguments in one line.
+
+5. what are the three types of quating in bash
+:- double quote, single quote, and backslash 
+
+6. which quote is subsitutes the value of variable and commands.
+:- Double Quotes
+
+7. what is use of single quote.
+:- it does not subsitute the value of variable, it will just display as it is. used to turn off special meaning of character.
+
+8. what removes the special meaning of single character.
+:- Backslash

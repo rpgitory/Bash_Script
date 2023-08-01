@@ -1,0 +1,10 @@
+Prerequisit of Globbing and Export Statement 
+
+-> We are creating files which starts from a to z.
+	:=touch {a..z}.sh
+
+-> if you want to experiment with two characters files then run below command. (here file will create with first character with capital ALPHABET letter)
+	:=for i in {A..Z}; do for j in {a..z}; do  touch "$i$j.sh"; done; done
+
+-> now we need a files which contains more than one character so here i am creating a files like aaa,aab,....,zzz
+	:=for i in {a..z}; do for j in {a..z}; do for k in {a..z}; do touch "$i$j$k.sh"; done; done; done
