@@ -1,0 +1,7 @@
+# Conditional Execution 
+
+1. How to get a return status in shell?
+:- $?
+
+2. how to close if condition in shell script?
+:- fi

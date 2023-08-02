@@ -1,0 +1,12 @@
+Prerequisit of Conditional execution
+
+
+There is no any evironment needed for this so let's start with tickets 
+
+
+Ticket 7.1: Write command for check 2 is equal to 2 using test command.
+Ticket 7.2: Write command for check 2 is equal to 2 without using test command. (Hint use a '[]')
+Ticket 7.3: Write command for check 2 is equal to 22 using test command and without using test command.
+Ticket 7.4: write a script using if condition to match variable count=24 if it match then display a message like "count is matched $count".
+Ticket 7.5: use pervious script and now if count is not matched with value 24 then display a message like "count is not matched $count"
+Ticket 7.6: wirte a scrip which will take user password from user and it will match with predefined password that already written in script and display a message, if password is matched then print "password correct" else "wrong password !".
