@@ -1,0 +1,8 @@
+Prerequisit of Logical Operators
+
+
+There is no any evironment needed for this so let's start with tickets 
+
+Ticket 9.1: Write a script which check two conditions, 1 check the user input that given by user which contains "Shell" word. 2 check the user input that given by user which contains "script" word. [Hint Modify previous script that you made in last session Ticket 8.2, use logical and operator syntax]
+Ticket 9.2: Write a script using logical 'or' operator and check whether given input string contains word "shell" or "script".
+Ticket 9.3: Write a script whether file is exsit or not using logical 'Not' operator.

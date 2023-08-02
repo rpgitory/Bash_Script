@@ -1,0 +1,7 @@
+Prerequisit of Nested and multilevel if elseif statements
+
+
+There is no any evironment needed for this so let's start with tickets 
+
+Ticket 8.1: Write a script that takes user input name and password, and check these username and password with pre-defined username and password in script, if both matches then print login successful if password is mismatched then print worng password and if username is not valid then print wrong username. [Hint do with nested loop]
+Ticket 8.2: Write a script that will check whether user input contains a string, either "shell" or "script" in given input. if it is then display a message like "script" string is found in userinput same with "shell" if user input is none then display a message like "no valid input given by user".
