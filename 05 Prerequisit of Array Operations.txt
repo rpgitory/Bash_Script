@@ -1,0 +1,12 @@
+Prerequisit of Array Operations
+
+
+
+There is no any evironment needed for this so let's start with tickets 
+Note:- Make sure you complete 05 Array Operation and 06 More in Array
+
+
+Ticket 5.1: Declar a array with name "Solar_system"
+Ticket 5.2: Store a value from 1 to 8 in Solar_system array.
+Ticket 5.3: Display a total lenght of Solar_system.
+Ticket 5.4: Display a value of 4th element in Solar_system.

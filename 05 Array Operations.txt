@@ -1,0 +1,8 @@
+# Array Operations 
+
+1. What is Array?
+:- Array is a variable with multiple values and values can be same of different types.
+
+2. Array with always start with 0 or 1 in bash script?
+:- 0
+

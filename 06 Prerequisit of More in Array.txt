@@ -1,0 +1,11 @@
+Prerequisit of More in Array 
+
+There is no any evironment needed for this so let's start with tickets 
+we are continues with previous array 
+
+
+
+Ticket 6.1: Display a range of 2 to 5 Solar_system.
+Ticket 6.2: Edit 2nd the element in Solar_system array with new value "33".
+Ticket 6.3: Add a element in last in Solar_system array "100" "101"
+Ticket 6.4: remove a last element in Solar_system array.
