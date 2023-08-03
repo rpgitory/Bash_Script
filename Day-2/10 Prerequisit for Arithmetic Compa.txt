@@ -1,0 +1,9 @@
+10 Prerequisit for Arithmetic Comparison
+
+
+There is no any evironment needed for this so let's start with tickets 
+
+
+Ticket 10.1: Write a script that can check a given file is empty or not.
+Ticket 10.2: used above script and check whether file contains words in between 1 to 50 or it is more than 50 so display a message based on word count.
+Ticket 10.3: Using previous script just print a total number of word count in file. [Extra]
