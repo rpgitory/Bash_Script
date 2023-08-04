@@ -1,0 +1,13 @@
+19 Prerequisit for Advanced topics in function
+
+There is no any evironment needed for this.
+
+1. what symble we used for run process in background in terminal ?
+:- '&'
+
+
+
+so let's start tickets
+
+19.1: write a simple funtion in global.sh file and display a message "this function is called from global file" and call this function in another file which name is local.sh using source keyword in shell script.
+19.2: write a script where function will find all mp3 file in current directy and display a message like "finding a mp3 files...." before it actually start finding mp3 files in system and call this function in background process then echo "process is running in bg" and display current availables running jobs in system.[Hint: to display crrent running jobs type "job -l"]

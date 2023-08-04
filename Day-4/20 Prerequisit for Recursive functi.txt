@@ -1,0 +1,7 @@
+20 Prerequisit for Recursive function
+
+There is no any evironment needed for this.
+
+so let's start tickets
+
+20.1: write a script for factorial function using recursive funtion and input will be taken by user.

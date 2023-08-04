@@ -26,3 +26,16 @@
 
 9. which keyword is used for taking input from user or keyboard?
 :- read 
+
+
+Tickets
+
+Ticket 2.1: Defined user defined variable with any name and store your student ID as value in it and display it.
+
+Ticket 2.2: Display all available system defined variables
+
+Ticket 2.3: Display hostname in temrinal using system defined variables
+
+Ticket 2.4: unset a variable that you created in ticket 2.1 with your student ID.
+
+Ticket 2.5: Read from user input and store value in userdefined variable and display a value using echo $Variable_name.

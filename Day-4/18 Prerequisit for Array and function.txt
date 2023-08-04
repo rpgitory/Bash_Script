@@ -1,0 +1,19 @@
+18 Prerequisit for Array and function
+
+There is no any evironment needed for this.
+
+1. what is purpose of return statement in shell script
+:- Will return to script from where it was called
+
+2. what is purpose of exit statement in shell script
+:- will end the entire script from where it is encountered
+
+
+
+so let's start with tickets
+
+18.1: write a fucntion which takes array args and display a all array values inside a function and also display a 2nd th element value inside function.
+
+18.2: write a script where function will take two args and matches it if it both are identical then it will display a message "this both values are same " then 'retun 0' then after write in next line echo "this line will display after return 0 executed" in fucntion after reutn 0. now type echo "this is outside function" after you have been called a function with passing two args.
+
+18.3: write a script where function will take two args and matches both value if both not match then it will display a message "this both values are different" then 'exit 0' now type echo "this is exit fun example " after you have been called a fucntion with passing two args.

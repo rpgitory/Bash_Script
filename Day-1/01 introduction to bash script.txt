@@ -9,3 +9,14 @@
 3. write shebang line
 :- #!/bin/bash
 
+
+
+Tickets 
+
+Ticket 1.1: open bash shell,C shell, K shell, z shell, TC shell and display running shell using. [Hint $SHELL]
+
+Ticket 1.2: Display current working directory path in terminal.
+
+Ticket 1.3: Display which user are you working in terminal.
+
+Ticket 1.4: write a shell script which display your student id number like "DV000" then it print which shell are you running on and current date and time.

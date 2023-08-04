@@ -5,3 +5,33 @@
 
 2. what do export command do in bash?
 :- it will export a variable or a function to environment of all child processes.
+
+
+Prerequisit of Globbing and Export Statement (Run all prerequisit commands in killercoda or where are you performing tickets but make sure you run all the commands before go to tickets) 
+
+-> We are creating files which starts from a to z.
+	:=touch {a..z}.sh
+	:=touch {a..z}.txt
+
+-> if you want to experiment with two characters files then run below command. (here file will create with first character with capital ALPHABET letter)
+	:=for i in {A..Z}; do for j in {a..z}; do  touch "$i$j.sh"; done; done
+	:==for i in {A..Z}; do for j in {a..z}; do  touch "$i$j.txt"; done; done
+-> now we need a files which contains more than one character so here i am creating a files like aaa,aab,....,zzz
+	:=for i in {a..z}; do for j in {a..z}; do for k in {a..z}; do touch "$i$j$k.sh"; done; done; done
+
+
+Once the environments is ready. so let's starts with ticket.
+
+Ticket 4.1: list all the files having .sh as a extension.
+Ticket 4.2: list all the files having .txt as a extension.
+Ticket 4.3: list all the files starting with 'a' and '.sh' as a extension.
+Ticket 4.4: list all the files starting with 'b' and '.txt' as a extension.
+Ticket 4.5: list all the files starting with letter 'a,b,c' and '.sh' as a extension.
+Ticket 4.6: list all the files starting with letter 'm,n,o' and '.txt' as a extension.
+Ticket 4.7: list all the files are not starting with letter 'a,b,c' and '.sh' as a extension.
+Ticket 4.8: list all the files are not starting with letter 'x,y,z' and '.txt' as a extension.
+Ticket 4.9: list all the files whcih are starting with upper and lower case 'Aa' and '.sh' as a extension.
+Ticket 4.10: list all the files whcih are starting with upper and lower case 'Xx,Yy' and '.txt' as a extension.
+Ticket 4.11 define a variable with name (put your name inplace of yourname) "yourname" and value your birth year and print it with 'echo $yourname'.
+Ticket 4.12 Export a variable which you just defined with "youname" to environment then open new shell by typing "/bin/bash" and now retive "youname" variable value in new shell.
+Ticket 4.13 Display all environment variables. (Hint you studied in Lecture 02 Basic of shell script)

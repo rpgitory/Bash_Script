@@ -3,5 +3,5 @@
 There is no any evironment needed for this so let's start with tickets 
 
 
-Ticket 15.1: Write a script and make a function with "function" keyword and function name "fun1" and display a message "function one created" using calling a function.
-Ticket 15.2:  Write a script and make a function with "()" and function name "fun2" and display a message "function two created" using calling a function.
+Ticket 16.1: Write a script and make a function with "function" keyword and function name "fun1" and display a message "function one created" using calling a function.
+Ticket 16.2:  Write a script and make a function with "()" and function name "fun2" and display a message "function two created" using calling a function.

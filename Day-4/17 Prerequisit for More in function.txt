@@ -1,0 +1,15 @@
+17 Prerequisit for More in functions
+
+There is no any evironment needed for this.
+ 
+1. A variable that declared as by variable name what type of variable is it?
+:- Global variable
+
+2. what is local variable and global variable 
+:- local variable which has limitation that can access within the function and cannot access outside function. where global variable can access anywhere within the enire file. 
+
+
+so let's start with tickets 
+
+Ticket 17.1: write a script for simple function and give two arguments that will be first name and last name and display a message like "Hi First_Name Last_Name welcome to terminal" using calling fucntion.
+Ticket 17.2: write a simple script which has one local variable within the function and one global variable within the function and display both message within function using echo. then try to display both variable out side the function. 

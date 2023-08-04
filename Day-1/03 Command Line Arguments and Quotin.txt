@@ -23,3 +23,22 @@
 
 8. what removes the special meaning of single character.
 :- Backslash
+
+
+Tickets 
+
+Ticket 3.1: write a script which accept a args and display a args which passed by user like "here is you args that you provided"
+
+Ticket 3.2: modified above script and print 1st, 2nd, 3rd, and 10th args as well and pass 15 args like [1 2 3 4 5....15].
+
+Ticket 3.3: Display a total number of args in above script.
+
+Ticket 3.4: Display all args and also display one by one args using for loop in shell script.
+
+Ticket 3.5: Display all args and also display one by one args in separate line  using for loop in shell script.
+
+Ticket 3.6: display username using double quotes echo statement like "here is my username = ______".
+
+Ticket 3.7: display username using single quotes echo statement like 'here is my username = ______'.
+
+Ticket 3.8: display a line echo "here is my username $USER" make sure i do not want a username instead of $USER i want this line as it is. [Hint you can use backslash to avoide special charater meaning]
