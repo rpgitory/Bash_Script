@@ -1,0 +1,10 @@
+13 Prerequisit for More in Loops
+
+let's create a directory and create some files
+mkdir test test1 test2
+touch ./test/{a..z}.txt && touch ./test1/{A..Z}.txt && touch ./test2/{1..26}.txt  
+
+We full filled prerequisit so let's start with tickets 
+
+Ticket 13.1: Write a script which will display a all the files from directory name starts with test.
+

@@ -1,0 +1,27 @@
+14 Prerequisit for Case Statement
+
+example case statements
+
+#!/bin/bash
+
+fruit="apple"
+
+case $fruit in
+    "apple")
+        echo "It's an apple."
+        ;;
+    "banana")
+        echo "It's a banana."
+        ;;
+    "orange")
+        echo "It's an orange."
+        ;;
+    *)
+        echo "It's something else."
+        ;;
+esac
+
+
+There is no any evironment needed for this so let's start with tickets 
+
+Ticket 14.1: Write a script for simple case statement where it will show you first menu for which web-series do you want to watch, [1 Mr Robot, 2 Farzi, 3 Squid Game, 4 Asur ] now take input from user which web-series they want to watch. if user press 1 then it should display a message like "Mr Robot is loading..", if press 2 "Farzi is laoding" same remaining. 

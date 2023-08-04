@@ -1,0 +1,10 @@
+11 Prerequisit for Strings and File attributes
+
+
+There is no any evironment needed for this so let's start with tickets 
+
+
+Ticket 11.1: Write a script and match whether current user is root or not.
+Ticker 11.2: Write a script and check whether file is empty or not.
+Ticker 11.3: Write a script and check whether user has write permission to file or not.
+Ticket 11.4: Write a script that can check whether file1 is newer than file2 and also check file1 is older than file2 or not.

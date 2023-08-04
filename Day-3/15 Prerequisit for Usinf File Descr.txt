@@ -1,0 +1,45 @@
+15 Prerequisit for Usinf File Descriptor
+
+#!/bin/bash/env/ bash
+exec 3> out.txt
+echo "wlecome to bash leanring" >&3
+date >&3
+# close fd #3
+exec 3<&-
+
+The provided code is a Bash script that demonstrates the use of file descriptors to write output to a file. Let's break down the script step by step:
+
+1. `#!/bin/bash/env/ bash`: This shebang line indicates that the script should be interpreted using the `/bin/bash` shell. However, there seems to be a typo in this line, as it should be `#!/bin/bash` or `#!/usr/bin/env bash` to correctly specify the path to the Bash interpreter.
+
+2. `exec 3> out.txt`: This line creates a new file descriptor, labeled as `3`, and associates it with the file `out.txt`. This means that any output sent to file descriptor `3` will be redirected to the file `out.txt`.
+
+3. `echo "welcome to bash learning" >&3`: This line uses the `echo` command to print the string "welcome to bash learning" to the standard output, which would usually be displayed on the terminal. However, due to the file descriptor redirection (`>&3`), the output is sent to the file `out.txt`.
+
+4. `date >&3`: This line executes the `date` command, which outputs the current date and time. Like the previous line, the output of `date` is redirected to file descriptor `3`, and it is appended to the content in `out.txt`.
+
+5. `exec 3<&-`: This line closes file descriptor `3`, releasing the association with the file `out.txt`. After this line, file descriptor `3` is no longer available for further operations.
+
+After running the script, the file `out.txt` will contain the following content:
+
+```
+welcome to bash learning
+Fri Jul 30 00:00:00 UTC 2023
+```
+
+The first line is the output from the `echo` command, and the second line is the output from the `date` command. Both outputs were redirected to the file `out.txt` using the file descriptor `3`.
+
+
+There is no any evironment needed for this but... please read the above code and understand the code before go futher. 
+
+1. what are the standard file descriptiors?
+:- 0 [stdin], 1 [stdout], 2 [stderr]
+
+2. File descriptor used for _____ ?
+:- I/O 
+
+3. How many file decriptior we have for any newly open file?
+:- 3 to 9
+
+so let's start with tickets 
+
+Ticket 15.1: Write a script with new file descriptor and store at file "new-fd.txt" and display user name and date & time.

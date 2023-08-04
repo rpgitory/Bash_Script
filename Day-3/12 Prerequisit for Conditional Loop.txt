@@ -1,0 +1,9 @@
+12 Prerequisit for Conditional Loops
+
+
+There is no any evironment needed for this so let's start with tickets 
+
+
+Ticket 12.1: Write a script that calculate a first of n number.
+Ticket 12.2: Write a script which will list out files in home directory.
+Ticker 12.3: Write a script to calculate sum of even number by given range using while loop.
