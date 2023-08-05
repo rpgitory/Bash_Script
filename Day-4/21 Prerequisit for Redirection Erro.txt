@@ -1,0 +1,36 @@
+21 Prerequisit for Redirection Error Handeling
+
+1. what is redirection?
+:- changining input and output default path is redirection.
+
+2. what is '0' used for in redirection?
+:- '0' for input 
+
+3. what is '1' used for in redirection?
+:- '1' for output
+
+4. what is '2' used for in redirection?
+:- '2' for error screen 
+
+5. what are the POSIX number?
+:- 0,1,2 and also called as file descriptor.
+
+6. which symbole is for erro redirection?
+:- 2>
+
+
+
+prereqisit 
+
+echo "this is a test file"+"$(seq 1 10)"> in.txt
+
+
+
+
+let's start with tickets 
+
+Ticket 21.1: write a script which can read and display in.txt file using '<' input redirection symbol.
+Ticket 21.2: store all availables files in current working directory in out.txt using out redirection symbol.
+Ticket 21.3: write a script to reading a file which is not exist in system and redirect a error message in err.txt file using error redirection symbol.
+
+

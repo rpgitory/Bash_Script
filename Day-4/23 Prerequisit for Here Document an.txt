@@ -1,0 +1,16 @@
+23 Prerequisit for Here Document and here string 
+
+1. what is here document ?
+:- it is a special-purpose block of text or code, It is form of I/O redirect.
+
+2. How will here document will end to take input ?
+:- by entering same word as it was started.
+
+
+So let's start with ticket
+
+Ticket 23.1: Run word cound of given string in terminal using HERE document, following string "Hi there, welcome to killercoda world".
+
+Ticket 23.2: write a script which takes 2 args and make sure those args will be used within here document and display message like "here is your 0th args = ", "here is your 1st args = ", and "here is your 3rd args = ". [Hint you can use cat command]
+
+Ticket 23.3: Write a script as you wrote in ticker 23.1, now do same thing using here string.

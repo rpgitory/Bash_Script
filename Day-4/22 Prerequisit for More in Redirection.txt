@@ -1,0 +1,19 @@
+22 Prerequisit for More in Redirection
+
+
+1. which symbol is used for std out and std error to file?
+:- '&>'
+
+2. what is called as bit bucket ?
+:- /dev/null is called as bit bucket where we can dump everything.
+
+3. what symbole is used for append outout?
+:- '>>'
+
+
+
+Ticket 22.1: list all the files from /usr and /user directory to out.txt using std error and stud out redirection symbol.
+
+Ticker 22.2: Use previous script and redirect out put to /dev/null file using 2>&1
+
+Ticket 22.3: append a current data output in out.txt
