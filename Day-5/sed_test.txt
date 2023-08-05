@@ -1,0 +1,13 @@
+`sed` (stream editor) is a Unix utility that parses and transforms text using a simple, compact programming language. It was developed in 1973-1974 by Lee E. McMahon of Bell Labs and is available for most operating systems. The tool is based on the scripting features of the interactive editor `ed` and the earlier `qed`.
+
+The main purpose of `sed` is to perform text processing tasks, such as search, substitution, and deletion, on a line-by-line basis. It reads text from an input stream or file into an internal buffer called the pattern space, where it applies a series of specified operations. These operations can include pattern matching, substitution, printing, and more.
+
+Some key features of `sed` include:
+1. Substitution (`s` command): The most common use of `sed` is for search and replace operations using regular expressions.
+2. Printing (`p` command): `sed` can print lines or portions of lines based on specified conditions.
+3. Deletion (`d` command): It can delete lines that match specific patterns.
+4. In-place editing: With the `-i` option, `sed` can edit files directly, making changes without creating a separate output file.
+5. Address range: You can specify a range of lines where the `sed` commands should be applied.
+6. Script-based processing: `sed` can be used with script files containing multiple commands, making it useful for complex text processing tasks.
+
+Overall, `sed` is a powerful tool for text manipulation, often used in combination with other unix utilities to create powerful text processing pipelines. Its simplicity, efficiency, and ability to handle large data sets make it a valuable tool for various tasks in the Unix environment.
