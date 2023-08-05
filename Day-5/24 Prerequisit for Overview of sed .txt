@@ -1,0 +1,11 @@
+24 Prerequisit for Overview of sed command
+
+1. Sed full form?
+:- Stream Editor
+
+2. what command can edit file even without opening it?
+:- sed
+
+3. what are the functions that are availables in sed ?
+:- find, searching, and replace, insertion or deletion.
+

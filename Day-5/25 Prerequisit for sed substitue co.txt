@@ -1,0 +1,42 @@
+25 Prerequisit for sed substitue command
+
+1. when quotes are needed in sed command?
+:- when we used space and special charaters inside the command.
+
+
+Prerequisit
+
+wget https://raw.githubusercontent.com/rpgitory/Bash_Script/master/Day-5/sed_test.txt
+
+
+So let's start with tickets
+
+Ticket 25.1: Replace Unix to Linux using sed command and pass this string as input "Unix is open source and secure OS compared to other operating system" and pass this string too "unix is open source and secure OS compared to other operating system"
+
+Ticket 25.2: Display a file content using sed command.
+
+Ticket 25.3: Display a file with adding live spaces in output.
+
+Ticket 25.4: replace a Unix to Linux in sed_test.txt file.
+
+Ticket 25.5: replace a Unix to 'Linux linux' in sed_test.txt file.
+
+Ticket 25.6: replace a Unix to Linux with ignoring case in sed_test.txt file.
+
+Ticket 25.7: replace a second occurence of Unix to Linux in sed_test.txt file.
+
+Ticket 25.8: replace a Unix to Linux in global replacement in sed_test.txt file.
+
+Ticket 25.9: replace a Unix to Linux in global replacement with ignoring case in sed_test.txt file.
+
+Ticket 25.10: replace a Unix to Linux which line containt 'sed' keyword in line.
+
+Ticket 25.11: replace a all digits into '-------' using regular experssion in sed_test.txt file.
+
+Ticket 25.12: replace Unix to Linux on line number 1 in sed_test.txt
+
+Ticket 25.13: replace Unix to Linux from 5th line to last line in sed_test.txt
+
+Ticket 25.14: replace a 'can be' to 'could be' where line which starts with '6.'
+
+  

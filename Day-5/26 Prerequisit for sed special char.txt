@@ -1,0 +1,69 @@
+26 Prerequisit for sed special character 
+
+1. which command enables a line flag in sed?
+:- -n
+
+2. what is ^ used for in sed command.
+:- To match begining of line
+
+3. what is $ used for in sed command.
+:- To match end of line 
+
+4. what is . used for in sed command.
+:- To match any single charater in line
+
+5. how can we match all characters in line.
+:- using [] 'square braces'
+
+
+Prerequisit
+
+wget https://raw.githubusercontent.com/rpgitory/Bash_Script/master/Day-5/sed_test.txt
+
+So let's start with tickets
+
+Ticket 26.1: Print a each line twice from file using sed command.
+
+Ticket 26.2: Print a 3rd line in sed_test.txt [enabled line flag in sed]
+
+Ticket 26.3: Print from 3rd line to 10th line in sed_test.txt
+
+Ticket 26.4: Print from 6th line to last line in sed_test.txt
+
+Ticket 26.5: Print from the next 4 lines starting from the 3rd line in sed_test.txt
+
+Ticket 26.6: Print all odd lines from given file and start from 1st line.
+
+Ticket 26.7: Print all even lines from given file.
+
+Ticket 26.8: Print all lines which contain word 'sed' in given file.
+
+Ticket 26.9: Print all lines which does not contain word 'sed' in given file.
+
+Ticket 26.10: Print a line which starts from 2. in given file.
+
+Ticket 26.11: Print a line which ends with 's.' in given file
+
+Ticket 26.12: Print all lines which ends with 'ns.' and before character or word can be anything in given file
+
+Ticket 26.13: Print all line which word contains starting with 'Un' character in given file
+
+Ticket 26.14: Print all line which shows line number first then shows a line.
+
+Ticket 26.15: Print from 1st line to 6th line with line number and show line after line number. [Hint do same as you done in 26.14 ticket but just do in line 1,2,3,4,5,6]
+
+Ticket 26.16: Print line number and then print content of line only which line contain word Unix.
+
+Ticket 26.17: Print just a line number which line contain word Unix. [Hint: use line flag] 
+
+Ticket 26.18: Print last line number in given file
+
+Ticket 26.19: Print all line in between {} in given file.
+
+Ticket 26.19: Print all line in between {} which contain word 'Unix' in given file.
+
+Ticket 26.20: Replace all words which contain Unix or unix to UNIX in given file.
+
+Ticket 26.21: Replace a any sequence of digit which start with 19 to '****' in given file. 
+
+Ticket 26.22: Replace a prefix text 'Line no' that match to any digit number in given file.
