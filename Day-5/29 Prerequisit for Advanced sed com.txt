@@ -1,0 +1,19 @@
+29 Prerequisit for Advanced sed command 
+
+Prerequisit
+
+wget https://raw.githubusercontent.com/rpgitory/Bash_Script/master/Day-5/C-lang.c
+wget https://raw.githubusercontent.com/rpgitory/Bash_Script/master/Day-5/Python-np.py
+wget https://raw.githubusercontent.com/rpgitory/Bash_Script/master/Day-5/Python-pd.py
+
+So let's start with tickets
+
+Ticket 29.1: display a functions name in '.c' [Hint find -name "*.c" -print -exec sed -n '/(.*);/p' {} \;] 
+
+Ticket 29.2: Change the variable name 'num' in test.c file.
+
+Ticket 29.3: Display a function name in '.py' [Hint find -name "*.py" -print -exec sed -n '/Function_name/p' {} \;]
+
+Ticket 29.4: replace function name to 'create_table' to 'Table_created' in .py file.
+
+Ticket 29.4: replace function name to 'create_table' to 'Table_created' in .py file make these changes in source file itself [Hint use 'i' flag].
