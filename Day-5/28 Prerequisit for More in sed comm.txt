@@ -1,0 +1,27 @@
+28 Prerequisit for More in sed command 
+
+1. which by default delimiter used by sed.
+:- '/'
+
+2. can use different delimiter ?
+:- yes (ex sed 's/abc/ABC/' file.txt with new delimiter; sed 's-abc-ABC-' file.txt [both output will be same])
+
+
+Prerequisit
+
+wget https://raw.githubusercontent.com/rpgitory/Bash_Script/master/Day-5/sed_test.txt
+wget https://raw.githubusercontent.com/rpgitory/Bash_Script/master/Day-5/command.txt
+
+So let's start with tickets
+
+Ticket 28.1: Change a word 'Unix' to 'Linux' with case ignoring and same with change word 'sed' to 'SED' with case ignoring in sed_test.txt but using external file with the help of -f flag in sed.
+
+Ticket 28.2: Display a line 1, and lines from 5 to 8 in given file using -n flag and -e flag.
+
+Ticket 28.3: Replace all small character a,b,c,d,e,f,g,h, to A,B,C,D,E,F,G,H in given file.
+
+Ticket 28.4: Add a line "THis can't be done by anyone" in last line in given file. [Hint use redirection to store file or watch previous video ]
+
+Ticket 28.5: replace a 'sed' to '$ed' in given file. [Hint 1. used by '\', 2. using single quotes]
+
+Ticket 28.6: Replace Unix to 'U/x' in given file. [Hint you different delimeter than '/']

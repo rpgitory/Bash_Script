@@ -1,0 +1,62 @@
+27 Prerequisit for sed command with files
+
+1. which flag used for remove line from source file.
+: -i
+
+2. which flag is used to output file in sed?
+: -n 
+
+
+Prerequisit
+
+wget https://raw.githubusercontent.com/rpgitory/Bash_Script/master/Day-5/sed_test.txt
+
+So let's start with tickets
+
+Ticket 27.1: delete all lines using sed command in given file.
+
+Ticket 27.2: Delete 2nd line in given file and display remaining files.
+
+Ticket 27.3: Delete from 2nd line to 6th line in given file and display remaining files.
+
+Ticket 27.4: Delete all the lines which contain 'sed' keyword in given file.
+
+Ticket 27.5: Delete all lines between words 'Substitution' to 'Deletion' in given file.
+
+Ticket 27.6: Delete last line in given file. [Hint use '$' operator]
+
+Ticket 27.7: Delete all line expect 7th line in given file.
+
+Ticket 27.7: Delete all line expect 7 to 9 lines in given file.
+
+Ticket 27.8: Delete first and last line.
+
+Ticket 27.9: Delete all line which start from '1'.
+
+Ticket 27.10: Delete last 4 lines in given file.
+
+Ticket 27.11: Delete line which ending with 'applied.' in given file.
+
+Ticket 27.12: Delete all the line which end with either a,b,c,d,e,f,g,h and '.' (dote).
+
+Ticket 27.13: copy a file content without displaying content of file in another file "copy.txt" using sed command.
+
+Ticket 27.14: Copy a odd lines from given file.
+
+Ticket 27.15: Copy a line which not contain 'sed' word in given file
+
+Ticket 27.16: Read a contnet of copy.txt file in 4th line in sed_test.txt file.
+ 
+Ticket 27.17: Append a line in given file. "This line is appended after last line."
+
+Ticket 27.18: Append a line in given file at 9th position. "THIS IS LINE 5 APPENDED AT LINE NO. 9."
+
+Ticket 27.19: Append a line where line contain word 'Unix'.
+
+Ticket 27.20: Append a line where line does not contain word 'sed'.
+
+Ticket 27.21: Add a line "This line will added on line number 9"on 9th position in given file using -i flag. 
+
+Ticket 27.22: Replace a line from 7th to 10th and replace with new line "This LiNE wiLL RepLacE 7,8,9,10 LInES....".
+
+Ticket 27.23: Add ls command output on last line in given file. [Hint print last line use '$', for execute linux command inside sed use 'e']
